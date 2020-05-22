@@ -5,7 +5,9 @@ export const useStyles = makeStyles({
     minWidth: 275,
     margin: "15px 5px",
     "&  .MuiCardContent-root ": {
-      padding: 32,
+      minHeight: 75,
+      display: "flex",
+      alignItems: "center",
     },
   },
 
