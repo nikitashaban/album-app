@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles({
   root: {
+    minHeight: 100,
     minWidth: 275,
     margin: "15px 5px",
     "&  .MuiCardContent-root ": {
